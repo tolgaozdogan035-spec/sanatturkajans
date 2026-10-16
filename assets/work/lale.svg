@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0455c"/><stop offset="1" stop-color="#5e1420"/></linearGradient>
+<linearGradient id="p1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe9cf"/><stop offset="1" stop-color="#f4a9a0"/></linearGradient>
+<linearGradient id="p2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb3a7"/><stop offset="1" stop-color="#ff7d83"/></linearGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<circle cx="400" cy="400" r="290" fill="#f4ecdf" opacity=".95"/>
+<circle cx="400" cy="400" r="250" fill="none" stroke="#b3263a" stroke-width="2" stroke-dasharray="3 9"/>
+<g fill="#751b24">
+<path d="M400 930 C 396 760 404 640 400 520 L 410 520 C 414 640 406 760 410 930Z"/>
+<path d="M404 760 C 300 740 240 650 230 560 C 320 590 390 660 404 760Z"/>
+<path d="M406 700 C 500 690 560 620 575 540 C 490 560 420 620 406 700Z"/>
+</g>
+<path d="M265 300 C 270 430 330 520 405 560 C 380 440 340 360 265 300Z" fill="url(#p2)"/>
+<path d="M535 300 C 530 430 470 520 395 560 C 420 440 460 360 535 300Z" fill="url(#p2)"/>
+<path d="M400 190 C 330 290 320 450 400 570 C 480 450 470 290 400 190Z" fill="url(#p1)"/>
+<path d="M400 190 C 372 290 372 450 400 570" fill="none" stroke="#e0455c" stroke-width="3" opacity=".5"/>
+<g font-family="Georgia,serif" font-weight="900" fill="#f4ecdf" text-anchor="middle">
+<text x="400" y="835" font-size="130" letter-spacing="14">LALE</text>
+</g>
+<text x="400" y="885" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="22" letter-spacing="9" fill="#ffd7d0">KÜLTÜR FESTİVALİ 2026</text>
+<text x="400" y="935" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" letter-spacing="5" fill="#ffb3a7">12 — 18 NİSAN · İSTANBUL</text>
+<rect x="24" y="24" width="752" height="952" fill="none" stroke="#f4ecdf" stroke-width="2" opacity=".6"/>
+</svg>

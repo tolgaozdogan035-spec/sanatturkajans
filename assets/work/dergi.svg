@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 950">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c2e5c"/><stop offset=".55" stop-color="#e0455c"/><stop offset="1" stop-color="#f6b46a"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity=".55"/><stop offset=".3" stop-color="#000" stop-opacity="0"/><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/></linearGradient>
+</defs>
+<rect width="700" height="950" fill="url(#sky)"/>
+<circle cx="350" cy="470" r="150" fill="#ffe3b0"/>
+<!-- skyline -->
+<g fill="#10101a">
+<path d="M0 950 V690 h60 v-60 h40 v60 h50 v-120 l24 -40 24 40 v120 h70 v-200 q30 -50 60 0 v200 h40 v-150 l20 -50 20 50 v150 h60 v-90 h50 v90 h40 v-130 l30 -60 30 60 v130 h72 V950z"/>
+<rect x="195" y="360" width="6" height="150"/><rect x="480" y="440" width="5" height="120"/>
+</g>
+<g fill="#10101a"><path d="M360 470 q-50 -90 0 -200 q50 110 0 200z" opacity="0"/></g>
+<rect width="700" height="950" fill="url(#fade)"/>
+<!-- masthead -->
+<text x="350" y="130" text-anchor="middle" font-family="Georgia,serif" font-weight="900" font-size="120" fill="#f4ecdf" letter-spacing="6">SANAT</text>
+<rect x="40" y="148" width="620" height="3" fill="#f4ecdf"/>
+<text x="350" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="8" fill="#f4ecdf">KÜLTÜR · TASARIM · YAŞAM — SAYI 24</text>
+<!-- headlines -->
+<g font-family="Georgia,serif" fill="#fff">
+<text x="46" y="760" font-weight="900" font-size="58">İstanbul'un</text>
+<text x="46" y="820" font-weight="900" font-size="58" fill="#ffd7a8">Yeni Işığı</text>
+</g>
+<g font-family="Arial,sans-serif" fill="#f4ecdf" font-size="16" font-weight="700" letter-spacing="2">
+<text x="46" y="866">Şehrin sanatçıları anlatıyor</text>
+</g>
+<rect x="46" y="890" width="90" height="34" fill="#b3263a"/><text x="91" y="913" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#fff">ÖZEL</text>
+<g fill="#fff" opacity=".9"><rect x="560" y="880" width="90" height="46"/><g fill="#000"><rect x="568" y="888" width="3" height="30"/><rect x="574" y="888" width="6" height="30"/><rect x="584" y="888" width="2" height="30"/><rect x="590" y="888" width="5" height="30"/><rect x="599" y="888" width="3" height="30"/><rect x="606" y="888" width="7" height="30"/><rect x="617" y="888" width="2" height="30"/><rect x="623" y="888" width="4" height="30"/><rect x="631" y="888" width="6" height="30"/><rect x="641" y="888" width="3" height="30"/></g></g>
+</svg>

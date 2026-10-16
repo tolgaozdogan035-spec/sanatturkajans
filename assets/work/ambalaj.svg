@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".45" r=".7"><stop offset="0" stop-color="#2d6a6a"/><stop offset="1" stop-color="#0f2f33"/></radialGradient>
+<filter id="b"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="800" height="800" fill="url(#bg)"/>
+<ellipse cx="400" cy="640" rx="260" ry="46" fill="#000" opacity=".4" filter="url(#b)"/>
+<!-- box faces -->
+<polygon points="400,170 640,290 640,560 400,680 400,170" fill="#751b24"/>
+<polygon points="400,170 160,290 160,560 400,680" fill="#b3263a"/>
+<polygon points="400,170 640,290 400,410 160,290" fill="#d63a52"/>
+<!-- left face label -->
+<g transform="matrix(1 .5 0 1 0 0)">
+<rect x="190" y="-10" width="180" height="40" fill="none"/>
+</g>
+<g transform="translate(160 290) matrix(1.3333 .5 0 1 0 0) scale(1) " >
+</g>
+<g>
+<polygon points="190,372 370,462 370,562 190,472" fill="#f4ecdf" opacity=".95"/>
+<text transform="translate(204 425) matrix(1 .5 0 1 0 0) rotate(0)" font-family="Georgia,serif" font-weight="900" font-size="30" fill="#751b24">Anadolu</text>
+<text transform="translate(204 468) matrix(1 .5 0 1 0 0)" font-family="Georgia,serif" font-weight="900" font-size="30" fill="#751b24">Çay</text>
+<circle cx="330" cy="486" r="0" fill="none"/>
+</g>
+<!-- right face pattern -->
+<g fill="#f4ecdf" opacity=".9">
+<polygon points="430,430 610,340 610,370 430,460"/>
+<polygon points="430,480 610,390 610,420 430,510"/>
+<polygon points="430,530 610,440 610,470 430,560"/>
+</g>
+<g fill="#d9a441"><circle cx="520" cy="390" r="14"/><circle cx="520" cy="390" r="6" fill="#751b24"/></g>
+<!-- top face ornament -->
+<g transform="translate(400 290) scale(1 .5) rotate(45)">
+<rect x="-70" y="-70" width="140" height="140" fill="none" stroke="#f4ecdf" stroke-width="5"/>
+<rect x="-50" y="-50" width="100" height="100" fill="#f4ecdf" transform="rotate(45)" opacity=".9"/>
+<circle r="26" fill="#d63a52"/>
+</g>
+<!-- tea glass -->
+<g transform="translate(675 570)">
+<path d="M0 -100 h90 l-14 120 q-31 18 -62 0z" fill="#e8a14a" opacity=".92"/>
+<path d="M-4 -100 h98 v18 h-98z" fill="#fff" opacity=".35"/>
+<ellipse cx="45" cy="26" rx="62" ry="10" fill="#f4ecdf"/>
+</g>
+</svg>
