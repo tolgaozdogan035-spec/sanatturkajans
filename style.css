@@ -164,3 +164,9 @@ h2{font-size:clamp(30px,4.4vw,52px);margin-bottom:44px;max-width:760px;font-weig
  .track{font-size:20px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.stl{display:inline-flex;align-items:center;gap:10px;transition:.2s}
+.st{font:900 34px/1 'Playfair Display',Georgia,serif;letter-spacing:-.02em;padding-right:10px;border-right:1px solid var(--red)}
+.st b{color:#fff;font-weight:900}.st i{color:var(--red2);font-style:normal}
+.stl em{font:800 14px Inter,Arial,sans-serif;font-style:normal;letter-spacing:.12em;color:#e8c3c9}
+.sisters a:hover .stl{transform:translateY(-2px)}
