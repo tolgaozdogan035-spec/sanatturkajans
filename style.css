@@ -102,7 +102,7 @@ h2{font-size:clamp(30px,4.4vw,52px);margin-bottom:44px;max-width:760px;font-weig
 .steps p{color:#a8a8b8;font-size:15px}
 
 .group{background:#fff;border-block:1px solid var(--line)}
-.fam{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.fam{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .fam a{background:var(--bg);color:#fff;border-radius:16px;padding:28px 22px;display:flex;flex-direction:column;gap:16px;justify-content:space-between;min-height:150px;transition:.3s}
 .fam a:hover{transform:translateY(-6px);box-shadow:0 20px 40px -18px rgba(117,27,36,.6)}
 .fam img{height:40px;width:auto;object-fit:contain;object-position:left}
@@ -121,7 +121,7 @@ h2{font-size:clamp(30px,4.4vw,52px);margin-bottom:44px;max-width:760px;font-weig
 
 .foot{background:#06060a;color:#8a8a98;padding:48px 0 28px;font-size:13px}
 .foot-in{padding-bottom:28px;border-bottom:1px solid #1c1c26}
-.sisters{display:grid;grid-template-columns:repeat(5,1fr);align-items:center}
+.sisters{display:grid;grid-template-columns:repeat(4,1fr);align-items:center}
 .sisters a{display:flex;justify-content:center;align-items:center;height:52px;padding:0 10px}
 .sisters a+a{border-left:1px solid #2a2a3a}
 .sisters img{height:46px;width:auto;max-width:100%;opacity:.92;transition:.2s}.sisters a:hover img{opacity:1;transform:translateY(-2px)}
@@ -145,7 +145,7 @@ h2{font-size:clamp(30px,4.4vw,52px);margin-bottom:44px;max-width:760px;font-weig
  .fam{grid-template-columns:1fr 1fr}
  .work{columns:2}
  .steps{grid-template-columns:1fr 1fr}
- .sisters{grid-template-columns:1fr 1fr 1fr;gap:20px 0}.sisters a:nth-child(4){border-left:0}
+ .sisters{grid-template-columns:1fr 1fr;gap:20px 0}.sisters a:nth-child(3){border-left:0}
  .svc li{grid-template-columns:50px 1fr 30px}.svc p{grid-column:2/3;grid-row:2}.svc .arr{opacity:1;grid-row:1;grid-column:3}
  .burger{display:block}
  .nav nav{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#0a0a10;padding:10px 24px 20px;display:none;border-bottom:1px solid #222}
